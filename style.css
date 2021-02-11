@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 10px;
+}
+
+.container .instagram-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.container .instagram-wrapper .phone img{
+    width: 350px;
+}
+
+.container .instagram-wrapper .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+    width: 28%;
+    padding: 20px;
+}
+
+.container .instagram-wrapper .login .logo {
+    width: 180px;
+}
+
+.container .instagram-wrapper .login .perfil {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container .instagram-wrapper .login button {
+    margin-top: 30px;
+    background-color: #0095F6;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 80%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container .instagram-wrapper .login p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #000;
+    font-weight: 200;
+}
+
+.container .instagram-wrapper .login p a {
+    color: #0095F6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container .instagram-wrapper .get-app {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container .instagram-wrapper .get-app img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .instagram-wrapper .login {
+        width: 90%;
+        margin-top: 50px;
+    }
+}
